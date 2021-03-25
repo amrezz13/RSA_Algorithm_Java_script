@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>CipherMyMessage</title>
+</head>
+
+<body >
+  
+    <main>
+        
+        <div class= "container-xl p-responsive-fluid">
+
+            <div class="plain text">
+                <div id="pwrapper">
+                    <form id="paper" method="get" action="">
+                        <div id="pmargin">Message</div>
+                        <textarea   id="ptext" maxlength="300" placeholder="Write your Message, Max length 300 charchater, Alphabets Only"  name="ptext" rows="5" style="overflow-y: scroll; word-wrap: break-word; resize: none; height: 160px; "></textarea>  
+                        <br>
+                    </form>
+                </div>
+            </div>
+                
+            
+            <div class="btn-group" role="group" >
+
+                <button id="RSAb" class="treat">RSA</button>
+                <button id="transb" class="treat">Transportation</button>
+                <button id="pfb" class="treat">PlayFair</button>
+
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+
+            <div class="plain text">
+                <div id="pwrapper">
+
+                    <form id="paper" method="get" action="">
+                        <div id="pmargin">Cipher Message</div>
+                        <textarea placeholder="Your Cipher Message" id="chipherarea" name="chipherarea" rows="5" readonly style="overflow-y: scroll; word-wrap: break-word; resize: none; height: 160px; "> </textarea>  
+                        <br>
+                    </form>
+                </div>
+            </div>
+
+
+            <div id="mainhow" class="how">
+
+            </div>
+
+            <div id="RSA" class="how">
+                <h1>how it work</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YQw124CtvO0&t" frameborder="0" allowfullscreen></iframe>
+                </iframe>
+            </div>
+            
+
+
+            <div id="trans" class="how">   
+                <h1>how it work</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bcyUJK1BvHw&t=3s" frameborder="0" allowfullscreen></iframe>
+                </iframe>
+            </div>
+
+
+            <div id="pf" class="how">
+                <h1>how it work</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/quKhvu2tPy8" frameborder="0" allowfullscreen></iframe>
+                </iframe>
+            </div>
+
+
+        
+        </div>
+       
+    </main>
+    <footer>
+        Amr Marey 
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
